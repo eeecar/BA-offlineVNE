@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libembedalgo.so -o libembedalgo.so CMakeFiles/embedalgo.dir/Grcnodealgo.cpp.o CMakeFiles/embedalgo.dir/Grclinkalgo.cpp.o 

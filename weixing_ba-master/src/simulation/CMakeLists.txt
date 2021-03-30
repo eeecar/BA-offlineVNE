@@ -1,0 +1,3 @@
+add_subdirectory(simulationtest)
+add_library(simulation SHARED Grc_simulation.cpp Grc_simulation.h)
+target_link_libraries(simulation embedalgo networklib hiberlite)

@@ -1,0 +1,92 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/weixing/Weixing Project/offline-sim/src/network/Link.h
+utility
+-
+iostream
+-
+
+/home/weixing/Weixing Project/offline-sim/src/network/Network.h
+Node.h
+/home/weixing/Weixing Project/offline-sim/src/network/Node.h
+Link.h
+/home/weixing/Weixing Project/offline-sim/src/network/Link.h
+SubL.h
+/home/weixing/Weixing Project/offline-sim/src/network/SubL.h
+SubN.h
+/home/weixing/Weixing Project/offline-sim/src/network/SubN.h
+VirN.h
+/home/weixing/Weixing Project/offline-sim/src/network/VirN.h
+VirL.h
+/home/weixing/Weixing Project/offline-sim/src/network/VirL.h
+vector
+-
+random
+-
+iostream
+-
+fstream
+-
+chrono
+-
+list
+-
+map
+-
+memory
+-
+
+/home/weixing/Weixing Project/offline-sim/src/network/Network_Builder.h
+Network.h
+/home/weixing/Weixing Project/offline-sim/src/network/Network.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/Node.h
+utility
+-
+iostream
+-
+
+/home/weixing/Weixing Project/offline-sim/src/network/Scenario.h
+vector
+-
+Network.h
+/home/weixing/Weixing Project/offline-sim/src/network/Network.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/Scenario_Builder.h
+Network_Builder.h
+/home/weixing/Weixing Project/offline-sim/src/network/Network_Builder.h
+Network.h
+/home/weixing/Weixing Project/offline-sim/src/network/Network.h
+Scenario.h
+/home/weixing/Weixing Project/offline-sim/src/network/Scenario.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/SubL.h
+Link.h
+/home/weixing/Weixing Project/offline-sim/src/network/Link.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/SubN.h
+iostream
+-
+Node.h
+/home/weixing/Weixing Project/offline-sim/src/network/Node.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/VirL.h
+Link.h
+/home/weixing/Weixing Project/offline-sim/src/network/Link.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/VirN.h
+Node.h
+/home/weixing/Weixing Project/offline-sim/src/network/Node.h
+
+/home/weixing/Weixing Project/offline-sim/src/network/networktest/network-test.cpp
+boost/test/unit_test.hpp
+-
+../Scenario_Builder.h
+/home/weixing/Weixing Project/offline-sim/src/network/Scenario_Builder.h
+

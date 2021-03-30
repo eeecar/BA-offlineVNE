@@ -1,0 +1,5 @@
+add_subdirectory(core)
+add_subdirectory(experiments)
+add_subdirectory(network)
+add_subdirectory(hiberlite-master)
+add_subdirectory(simulation)

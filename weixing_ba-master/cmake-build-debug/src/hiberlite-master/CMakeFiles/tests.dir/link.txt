@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wno-terminate -g   CMakeFiles/tests.dir/tests.cpp.o  -o tests -Wl,-rpath,/home/weixing/offline-sim/cmake-build-debug/src/hiberlite-master libhiberlite.so -lpthread -ldl 
